@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion'
-import { hero, BRAND } from '../data/funnel.js'
+import { hero } from '../data/funnel.js'
 import { PrimaryButton } from './ui.jsx'
-import { ChevronDown, LogoMark } from './Icons.jsx'
+import { ChevronDown } from './Icons.jsx'
+import Brand from './Brand.jsx'
 
 const container = {
   hidden: {},
@@ -29,12 +30,9 @@ export default function Hero({ onStart }) {
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="absolute top-16 flex items-center gap-2.5 lg:top-10"
+        className="absolute top-14 flex items-center gap-2.5 lg:top-9"
       >
-        <LogoMark className="h-7 w-7" />
-        <span className="font-display text-lg font-semibold tracking-[0.18em] text-ink">
-          {BRAND.name.toUpperCase()}
-        </span>
+        <Brand size="h-9" />
       </motion.div>
 
       <motion.div variants={container} initial="hidden" animate="show" className="max-w-4xl">

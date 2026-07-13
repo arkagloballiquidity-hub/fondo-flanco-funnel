@@ -2,7 +2,7 @@
 export const WHATSAPP_NUMBER = '5215555555555'
 
 export const BRAND = {
-  name: 'Fondo Flanco',
+  name: 'Múltiplo',
   tagline: 'Gestión patrimonial profesional',
 }
 
@@ -184,14 +184,14 @@ export const conversion = {
 
 export const trust = {
   regulation: {
-    eyebrow: 'Regulación y seguridad',
-    title: 'Tu capital bajo un bróker con licencia internacional.',
-    body: 'Auditado y con segregación de fondos. Tu dinero nunca se mezcla con el capital operativo de la firma.',
+    eyebrow: 'Bróker regulado · HFM',
+    title: 'Tu capital opera con HF Markets (HFM), bróker global regulado desde 2010.',
+    body: 'Múltiplo es la mesa de gestión; HFM es la infraestructura donde vive tu dinero: licencias internacionales, fondos segregados y más de 2,500,000 cuentas abiertas en más de 180 países.',
     badges: [
-      { title: 'Licencia internacional', desc: 'Bróker regulado y supervisado' },
-      { title: 'Segregación de fondos', desc: 'Capital del cliente separado' },
-      { title: 'Auditoría externa', desc: 'Reportes verificables' },
-      { title: 'Perfilamiento CNBV', desc: 'Criterios de inversionista' },
+      { title: 'FCA · Reino Unido', desc: 'HF Markets (UK) Ltd · Ref. 801701' },
+      { title: 'DFSA · Dubái', desc: 'HF Markets (DIFC) Ltd · Lic. F004885' },
+      { title: 'FSCA · Sudáfrica', desc: 'HF Markets SA (PTY) Ltd · Lic. 46632' },
+      { title: 'Fondos segregados', desc: 'Capital del cliente separado y protegido' },
     ],
   },
   team: {
@@ -249,11 +249,11 @@ export const trust = {
       },
       {
         q: '¿Qué bróker es?',
-        a: 'Operamos bajo un bróker con licencia internacional y segregación de fondos. El nombre y los datos completos del bróker asignado se comparten contigo durante el proceso de alta con tu asesor.',
+        a: 'Operamos con HF Markets (HFM), un bróker global fundado en 2010 y regulado por autoridades como la FCA (Reino Unido), la DFSA (Dubái), la FSCA (Sudáfrica) y la FSA (Seychelles). Con más de 2,500,000 cuentas abiertas y presencia en +180 países, la operativa se realiza en MetaTrader 4 y MetaTrader 5.',
       },
       {
         q: '¿Están regulados?',
-        a: 'Sí. El bróker opera bajo licencia internacional y auditoría externa. Además, nuestro perfilamiento sigue los criterios de la CNBV para clasificar tu perfil de inversionista.',
+        a: 'Sí. HFM opera bajo múltiples licencias internacionales (FCA, DFSA, FSCA, FSA, CMA) con auditoría externa y fondos segregados. Además, nuestro perfilamiento sigue los criterios de la CNBV para clasificar tu perfil de inversionista.',
       },
       {
         q: '¿Cuánto necesito para empezar?',

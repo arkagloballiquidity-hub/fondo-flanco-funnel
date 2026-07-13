@@ -2,7 +2,8 @@ import { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { trust, BRAND } from '../data/funnel.js'
 import { CountUp, SectionHeader } from './ui.jsx'
-import { ShieldIcon, ChartIcon, ChevronDown, LogoMark } from './Icons.jsx'
+import { ShieldIcon, ChartIcon, ChevronDown } from './Icons.jsx'
+import Brand from './Brand.jsx'
 
 const reveal = {
   initial: { opacity: 0, y: 30 },
@@ -235,10 +236,7 @@ export default function TrustSection() {
       <Testimonials />
       <Faqs />
       <footer className="border-t border-line py-10 text-center">
-        <div className="flex items-center justify-center gap-2.5">
-          <LogoMark className="h-6 w-6" />
-          <p className="font-display text-lg font-semibold tracking-[0.18em] text-ink">{BRAND.name.toUpperCase()}</p>
-        </div>
+        <Brand size="h-8" className="justify-center" />
         <p className="mt-2 text-xs uppercase tracking-[0.2em] text-muted">{BRAND.tagline}</p>
         <p className="mx-auto mt-4 max-w-md px-6 text-[0.7rem] leading-relaxed text-muted/70">
           Inversiones de riesgo. Los rendimientos históricos no garantizan resultados futuros. Este sitio no
